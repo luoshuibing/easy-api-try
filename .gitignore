@@ -1,0 +1,4 @@
+# AI生成：忽略 VS Code 设置、构建输出与依赖目录
+.vscode/
+out/
+node_modules/

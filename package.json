@@ -1,0 +1,54 @@
+{
+  "name": "easy-api-try",
+  "displayName": "Easy API Try",
+  "description": "在面板中调试接口，支持扫描Spring Boot项目URL",
+  "version": "0.1.0",
+  "publisher": "your-publisher",
+  "icon": "media/icon.svg",
+  "license": "MIT",
+  "keywords": [
+    "api",
+    "spring-boot",
+    "debugger",
+    "webview",
+    "trae",
+    "http",
+    "json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://example.com/your-repo.git"
+  },
+  "bugs": {
+    "url": "https://example.com/your-repo/issues"
+  },
+  "homepage": "https://example.com/your-repo",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "trae.scanSpringBootEndpoints",
+        "title": "扫描Spring Boot接口并打开调试器"
+      }
+    ]
+  },
+  "scripts": {
+    "compile": "tsc -p .",
+    "watch": "tsc -w -p ."
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "@types/node": "^20.11.30",
+    "@types/vscode": "^1.80.0"
+  }
+}
+
