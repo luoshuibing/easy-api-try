@@ -3,7 +3,7 @@
   "displayName": "Easy API Try",
   "description": "在面板中调试接口，支持扫描Spring Boot项目URL",
   "version": "0.1.0",
-  "publisher": "your-publisher",
+  "publisher": "Finn",
   "icon": "media/icon.svg",
   "license": "MIT",
   "keywords": [
