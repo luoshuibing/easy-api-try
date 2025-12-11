@@ -1,0 +1,6 @@
+# AI生成：Open VSX/VSCE 打包优化，排除开发与非必要文件
+.vscode/
+src/
+tsconfig.json
+**/*.ps1
+**/*.svg

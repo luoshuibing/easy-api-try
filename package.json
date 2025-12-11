@@ -2,9 +2,9 @@
   "name": "easy-api-try",
   "displayName": "Easy API Try",
   "description": "在面板中调试接口，支持扫描Spring Boot项目URL",
-  "version": "0.1.0",
-  "publisher": "Finn",
-  "icon": "media/icon.svg",
+  "version": "0.1.1",
+  "publisher": "OLDBOY",
+  "icon": "media/icon.png",
   "license": "MIT",
   "keywords": [
     "api",
@@ -17,12 +17,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://example.com/your-repo.git"
+    "url": "https://github.com/luoshuibing/easy-api-try"
   },
   "bugs": {
-    "url": "https://example.com/your-repo/issues"
+    "url": "https://github.com/luoshuibing/easy-api-try/issues"
   },
-  "homepage": "https://example.com/your-repo",
+  "homepage": "https://github.com/luoshuibing",
   "engines": {
     "vscode": "^1.80.0"
   },
@@ -43,7 +43,9 @@
   },
   "scripts": {
     "compile": "tsc -p .",
-    "watch": "tsc -w -p ."
+    "watch": "tsc -w -p .",
+    "package:openvsx": "npx --yes ovsx package",
+    "publish:openvsx": "powershell -NoProfile -ExecutionPolicy Bypass -File ./publish-openvsx.ps1"
   },
   "devDependencies": {
     "typescript": "^5.6.3",
@@ -51,4 +53,3 @@
     "@types/vscode": "^1.80.0"
   }
 }
-
