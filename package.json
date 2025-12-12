@@ -2,8 +2,8 @@
   "name": "easy-api-try",
   "displayName": "Easy API Try",
   "description": "在面板中调试接口，支持扫描Spring Boot项目URL",
-  "version": "0.1.1",
-  "publisher": "OLDBOY",
+  "version": "0.1.5",
+  "publisher": "luoshuibing",
   "icon": "media/icon.png",
   "license": "MIT",
   "keywords": [
